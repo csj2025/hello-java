@@ -1,4 +1,4 @@
-package com.chen;
+package com.chen.exercises;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TemperatureConverterTest {
