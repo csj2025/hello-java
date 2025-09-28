@@ -1,12 +1,50 @@
 # hello-java-starter
 
+## 介绍
 这是一个 **Java 17 + Maven** 的最小起步项目，已包含：
 - `Hello.java`：Hello World
 - `TemperatureConverter.java`：摄氏度 -> 华氏度转换（含简单方法）
 - `LeapYear.java`：闰年判断
 - `Calculator.java`：简易计算器（+ - * /）
 - `TemperatureConverterTest.java`：JUnit 5 单元测试示例
+## 項目结构
+```
+D:.
+|   .gitignore
+|   pom.xml
+|   README.md
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---chen
+|   |   |           |   Hello.java
+|   |   |           |   
+|   |   |           \---exercises
+|   |   |                   Calculator.java
+|   |   |                   LeapYear.java
+|   |   |                   TemperatureConverter.java
+|   |   |                   
+|   |   \---resources
+|   \---test
+|       \---java
+|           \---com
+|               \---chen
+|                   \---exercises
+|                           TemperatureConverterTest.java
+|                           
+```
 
+## JDK 版本
+- Java 17
+## Maven命令
+- `mvn clean` 清理项目
+- `mvn compile` 编译项目
+- `mvn test` 运行测试
+- `mvn package` 打包项目
+- `mvn install` 安装项目到本地仓库
+- `mvn deploy` 发布项目到远程仓库
+## 依赖管理
 ## 如何在 IntelliJ 打开
 1. 打开 IntelliJ IDEA -> **Open** -> 选择该项目目录（或直接选择 `pom.xml`）
 2. 等待 Maven 依赖下载完成（右下角/右侧 Maven 面板可查看进度）
