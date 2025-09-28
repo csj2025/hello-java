@@ -1,5 +1,9 @@
 package com.chen.exercises;
 import java.util.Scanner;
+
+/**
+ * 简单计算器（switch）：输入 a op b，支持 + - * /，注意除零处理
+ */
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
