@@ -3,6 +3,7 @@ package com.chen.sm.service;
 import com.chen.sm.model.Student;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -38,11 +39,12 @@ public class StudentService {
         return true;
     }
     public Student getById(String id){
-        for(Iterator<Student> iterator = students.iterator(); iterator.hasNext();){
-            if(iterator.next().getId().equals(id)){
-                return iterator.next();
+        for(Student s:students){
+            if(s.getId().equals(id)){
+                return s;
             }
         }
         return null;
     }
+    public List<Student> listAll() { return Collections.unmodifiableList(students); }
 }
