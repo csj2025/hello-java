@@ -68,14 +68,10 @@ StudentManagementSystem/
 
 ## 总结
 - 今日新知
-  - switch 对 String 也生效（Java 7+）”“强制类型转换的风险
-  - switch 的 fall-through（及时 break）
-  - 嵌套分支的可读性（早返回/卫语句/拆函数）
-  - git init/clone/add/commit/push，.gitignore，分支模型简单认识
-  - 流程控制（if-else、switch、for、while、do-while、break/continue）
+  - 集合、迭代、equals/hashCode、菜单循环、异常处理
 
 - 今天最大困难与解决思路
-  - 今天最大困难与解决思路→ 使用 nextLine()/next() 区分”
+  - 如 Scanner 读取、NumberFormatException
  
 - 明日计划
   - 面向对象与 Stream（用 Stream 重构部分查询/排序）
